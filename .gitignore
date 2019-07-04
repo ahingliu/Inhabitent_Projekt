@@ -32,7 +32,7 @@ node_modules/
 !plugins/
 !themes/
 !uploads/
-!README.node_modules
+!README.md
 
 plugins/*
 !plugins/inhabitent-functionality
