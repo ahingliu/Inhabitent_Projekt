@@ -1,0 +1,76 @@
+// Footer CSS
+
+.site-footer {
+  height: 400px;
+  background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/dark-wood.png);
+  color: $color__background-body;
+
+  .f-blocks {
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px 0;
+  }
+
+  h3 {
+    color: $color__h3footer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  a {
+    color: $color__background-body;
+    text-decoration: none;
+    display: inline;
+  }
+
+  .business-hours {
+    p {
+      color: $color__background-body;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .f-logo {
+    align-items: flex-end;
+    flex: 2;
+    padding-top: 12 px;
+    padding-left: 300px;
+
+    img {
+      height: 75px;
+    }
+  }
+
+  .contact {
+    padding-right: 100px;
+
+    i {
+      color: $color__background-body;
+      padding-right: 10px;
+      font-size: 1.2rem;
+    }
+  }
+
+  .p-icons {
+    font-size: 1rem;
+  }
+
+  .site-info {
+    align-items: flex-end;
+    text-align: center;
+
+    p {
+      color: $color__background-body;
+      text-transform: uppercase;
+      font-family: 'Novecento Sans Web', sans-serif;
+    }
+  }
+}

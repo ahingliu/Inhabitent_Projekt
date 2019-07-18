@@ -2,4 +2,53 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+.site {
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: #ccc;
+  padding: 4rem;
+}
+
+.site-content {
+  background-color: #ccc;
+  padding: 4rem;
+  margin: 1rem 0;
+  display: flex;
+}
+
+.content-area {
+  flex: 2;
+  background-color: azure;
+}
+
+.widget-area {
+  flex: 1;
+  background-color: aquamarine;
+}
+
 /* Front page */
+
+.home {
+  .site {
+    max-width: 90%;
+  }
+
+  .site-header {
+    background-color: rgb(204, 39, 39);
+  }
+}
+
+h2 {
+  font-family: 'Novecento Sans Web';
+  color: red;
+  font-size: 16px;
+}
+
+p {
+  font-family: 'Merriweather Web';
+  color: #404040;
+  font-size: 16px;
+}
