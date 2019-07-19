@@ -31,7 +31,7 @@ node_modules/
 !.gitignore
 !plugins/
 !themes/
-!uploads/
+uploads/
 !README.md
 
 plugins/*

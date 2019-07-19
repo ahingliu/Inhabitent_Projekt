@@ -445,6 +445,29 @@ a {
     outline: 0; }
 
 /* Menus */
+.home .site {
+  max-width: 100%; }
+
+.site-header {
+  background-color: transparent;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.5rem 0;
+  position: fixed;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear;
+  width: 100%;
+  z-index: 3;
+  display: inline-block; }
+  .site-header h1 {
+    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent-white.svg) no-repeat;
+    background-size: 50px 33px;
+    height: 33px;
+    margin: 0;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 50px; }
+
 .main-navigation {
   clear: both;
   display: block;
@@ -475,11 +498,15 @@ a {
     .main-navigation ul li.focus > ul {
       left: auto; }
   .main-navigation li {
-    float: left;
-    position: relative; }
+    float: right;
+    position: relative;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-right: 20px; }
   .main-navigation a {
     display: block;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #fff; }
 
 /* Small menu. */
 .menu-toggle,
@@ -687,14 +714,9 @@ object {
   max-width: auto;
   margin: 0 auto; }
 
-.site-header {
-  background-color: #ccc;
-  padding: 4rem; }
-
 .site-content {
-  background-color: #ccc;
-  padding: 4rem;
-  margin: 1rem 0;
+  padding: 1rem;
+  margin: 5rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -702,31 +724,25 @@ object {
 .content-area {
   -webkit-box-flex: 2;
       -ms-flex: 2;
-          flex: 2;
-  background-color: azure; }
+          flex: 2; }
 
 .widget-area {
   -webkit-box-flex: 1;
       -ms-flex: 1;
-          flex: 1;
-  background-color: aquamarine; }
+          flex: 1; }
 
 /* Front page */
-.home .site {
-  max-width: 90%; }
-
-.home .site-header {
-  background-color: #cc2727; }
-
 h2 {
   font-family: 'Novecento Sans Web';
-  color: red;
-  font-size: 16px; }
+  color: #2f1339;
+  font-size: 2.1rem;
+  margin-bottom: 1.5rem; }
 
 p {
   font-family: 'Merriweather Web';
   color: #404040;
-  font-size: 16px; }
+  font-size: 16px;
+  margin-bottom: 1.5rem; }
 
 .site-footer {
   height: 400px;
@@ -787,3 +803,28 @@ p {
 .container {
   width: 1120px;
   margin: auto; }
+
+.page-id-7 .site-header {
+  background-color: transparent;
+  border-bottom: none;
+  padding: 0.5rem 0;
+  position: fixed;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear;
+  width: 100%;
+  z-index: 3;
+  display: inline-block; }
+
+.page-id-7 .hero-image-header {
+  height: 100vh; }
+
+.page-id-7 .entry-content p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; }
+
+.page-id-7 .entry-content h2 {
+  text-align: center; }
+
+.archive p {
+  color: red; }

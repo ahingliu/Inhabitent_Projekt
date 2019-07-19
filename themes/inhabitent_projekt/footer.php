@@ -23,9 +23,9 @@
 		</div>
 			
 		<div class="f-logo">
-			<a href="http://localhost:3000/wptest/" rel="home">
+	<a href="http://localhost:3000/wptest/" rel="home">
 			<img src="http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-text.svg" alt="Inhabitent Logo"></a>
-		</div>	
+		</div> 
 	</div>
 		
 	<div class="site-info">
