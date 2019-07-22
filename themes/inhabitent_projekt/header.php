@@ -23,13 +23,14 @@
 
 			<header id="masthead" class="site-header" role="banner">
 				<div class="container">
+				<div class="h-logo">
+						<a href="http://localhost:/wptest/" rel="home">
+						<h1 class="site-title">Ihabitent</h1>
+						</div>
 					<div class="site-branding">
 						<h1 class="site-title screen-reader-text"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 						<p class="site-description"><?php bloginfo( 'description' ); ?></p>
-						<div class="h-logo">
-						<a href="http://localhost:3000/wptest/" rel="home">
-						<h1 class="site-title">Ihabitent</h1>
-						</div>
+						
 					</div><!-- .site-branding -->
 
 				

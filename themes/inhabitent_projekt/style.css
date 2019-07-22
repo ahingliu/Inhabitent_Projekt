@@ -826,5 +826,216 @@ p {
 .page-id-7 .entry-content h2 {
   text-align: center; }
 
-.archive p {
-  color: red; }
+.archive h2 {
+  margin-bottom: 0;
+  padding: 8px; }
+
+.archive .site-content {
+  margin: 1rem 0; }
+
+.archive .site-header {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.5rem 0;
+  position: fixed;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  margin-top: -80px; }
+  .archive .site-header h1 {
+    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg) no-repeat;
+    background-size: 50px 33px;
+    margin: 0; }
+  .archive .site-header a {
+    color: #248a83; }
+
+.archive .menu-main-menu-container ul {
+  margin-bottom: -50px; }
+
+.archive .page-header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem; }
+
+.archive .page-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase; }
+
+.archive .product-type-list {
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px dashed #c8c8c8;
+  padding-bottom: 20px; }
+  .archive .product-type-list a {
+    text-decoration: none;
+    color: #248a83; }
+  .archive .product-type-list a:active,
+  .archive .product-type-list a:focus,
+  .archive .product-type-list a:hover {
+    color: #2f1339;
+    text-decoration: none; }
+  .archive .product-type-list li {
+    list-style-type: none;
+    margin-right: 55px; }
+  .archive .product-type-list p {
+    font-size: 1.2rem;
+    font-family: 'Novecento Sans Web'; }
+
+.archive .entry-title a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #404040;
+  margin-top: 10px; }
+
+.archive #text {
+  font-size: 1.2rem;
+  font-family: 'Novecento Sans Web'; }
+
+.archive .product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 50px; }
+  .archive .product-grid img {
+    width: auto;
+    height: 250px;
+    -o-object-fit: cover;
+       object-fit: cover; }
+  .archive .product-grid article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative; }
+
+.archive .shop-box {
+  border: 1px solid #e1e1e1;
+  padding-left: 0.5rem;
+  background-color: #fff; }
+  .archive .shop-box a {
+    color: #404040;
+    text-decoration: none;
+    font-family: 'Merriweather Web';
+    font-size: 0.9rem; }
+  .archive .shop-box h2 {
+    font-size: 0.1rem; }
+
+.archive .entry-content {
+  color: #404040;
+  font-family: 'Merriweather Web';
+  font-size: 0.9rem;
+  margin-top: 257px;
+  position: absolute;
+  margin-left: 185px; }
+
+.archive .entry-header {
+  background-color: #e1e1e1; }
+
+.archive .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '............'; }
+
+.archive .price {
+  margin-left: 10px; }
+
+.archive #post-155 .price {
+  margin-left: -5px; }
+
+.archive #post-155 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '...................'; }
+
+.archive #post-159 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '...........................'; }
+
+.archive #post-169 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '..............................'; }
+
+.archive #post-168 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '...........'; }
+
+.archive #post-166 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '.............................'; }
+
+.archive #post-165 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '.......................'; }
+
+.archive #post-164 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '.......................'; }
+
+.archive #post-163 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '.................'; }
+
+.archive #post-162 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '..................'; }
+
+.archive #post-161 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '.....................'; }
+
+.archive #post-158 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '......................'; }
+
+.archive #post-157 .entry-title a:after,
+.archive #post-156 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '......................'; }
+
+.archive #post-144 .entry-title a:after {
+  padding-left: 5px;
+  width: 0;
+  white-space: nowrap;
+  content: '..........................'; }

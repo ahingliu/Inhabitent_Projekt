@@ -13,22 +13,39 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
+
+			<h1 class="page-title">Shop Stuff</h1>
+				<ul class="product-type-list">
+				<li><p><a href="http://localhost/wptest/product/">Do</a></p></li>
+				<li><p><a href="http://localhost/wptest/product/">Eat</a></p></li>
+				<li><p><a href="http://localhost/wptest/product/">Sleep</a></p></li>
+				<li><p><a href="http://localhost/wptest/product/">Wear</a></p></li>	
+				</ul>
+			
+			<!-- get terms - wordpress - foreach loop -->
+
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php
-					get_template_part( 'template-parts/content', 'product' );
+			<?php 
+				$the_query = new WP_Query( array(
+					'post_type' => 'product',
+					'posts_per_page' => 16,
+				)); 
 				?>
+				<div class="product-grid container">
+				<?php if ( $the_query->have_posts() ) : ?>
+				<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-			<?php endwhile; ?>
+					<?php get_template_part( 'template-parts/content', 'product' ); ?>
 
-			<?php the_posts_navigation(); ?>
+				<?php endwhile; ?>
+				
+				</div>
+				<?php else : ?>
+				<p><?php get_template_part( 'template-parts/content', 'none' ); ?></p>
+				<?php endif; ?> 
+			
 
 		<?php else : ?>
 
@@ -41,3 +58,5 @@ get_header(); ?>
 
 
 <?php get_footer(); ?>
+
+
