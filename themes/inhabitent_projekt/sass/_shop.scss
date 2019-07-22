@@ -17,7 +17,6 @@
     width: 100%;
     display: inline-block;
     height: 50px;
-    margin-top: -80px;
 
     h1 {
       background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
@@ -48,6 +47,7 @@
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    margin-top: 5rem;
   }
 
   .product-type-list {

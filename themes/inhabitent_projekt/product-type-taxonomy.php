@@ -1,9 +1,10 @@
 <?php
 /**
- * The template for displaying archive pages.
+ * Template Name: taxonomy template
  *
  * @package RED_Starter_Theme
  */
+
 get_header(); ?>
 
 	<div id="primary" class="content-area">
@@ -13,13 +14,6 @@ get_header(); ?>
 
 			<header class="page-header">
 
-			<h1 class="page-title">Shop Stuff</h1>
-				<ul class="product-type-list">
-				<li><p><a href="http://localhost/wptest/product/">Do</a></p></li>
-				<li><p><a href="http://localhost/wptest/product/">Eat</a></p></li>
-				<li><p><a href="http://localhost/wptest/product/">Sleep</a></p></li>
-				<li><p><a href="http://localhost/wptest/product/">Wear</a></p></li>	
-				</ul>
 			
 			<!-- get terms - wordpress - foreach loop -->
 
@@ -29,7 +23,7 @@ get_header(); ?>
 			<?php 
 				$the_query = new WP_Query( array(
 					'post_type' => 'product',
-					'posts_per_page' => 16,
+					'posts_per_page' => 4,
 				)); 
 				?>
 				<div class="product-grid container">
@@ -57,3 +51,5 @@ get_header(); ?>
 
 
 <?php get_footer(); ?>
+
+

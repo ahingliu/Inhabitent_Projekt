@@ -842,8 +842,7 @@ p {
   transition: top 0.5s linear;
   width: 100%;
   display: inline-block;
-  height: 50px;
-  margin-top: -80px; }
+  height: 50px; }
   .archive .site-header h1 {
     background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg) no-repeat;
     background-size: 50px 33px;
@@ -865,7 +864,8 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 5rem; }
 
 .archive .product-type-list {
   text-transform: uppercase;
