@@ -26,6 +26,10 @@
     color: $color__background-body;
     text-decoration: none;
     display: inline;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .business-hours {

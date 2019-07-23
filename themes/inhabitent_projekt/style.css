@@ -744,6 +744,67 @@ p {
   font-size: 16px;
   margin-bottom: 1.5rem; }
 
+.site-header {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.5rem 0;
+  position: fixed;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  margin-top: -120px; }
+  .site-header h1 {
+    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg) no-repeat;
+    background-size: 50px 33px;
+    margin: 0; }
+  .site-header a {
+    color: #248a83; }
+
+.menu-main-menu-container ul {
+  margin-bottom: -50px; }
+
+.nav-previous {
+  display: none; }
+
+.nav-next {
+  display: none; }
+
+.site-content {
+  width: 100%; }
+  .site-content .entry-header {
+    border-right: 1px solid #e1e1e1; }
+
+.site-content {
+  width: 1120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-top: 150px; }
+
+.entry-content,
+.entry-header {
+  width: 73%;
+  border-right: 1px solid #e1e1e1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0; }
+  .entry-content article img,
+  .entry-header article img {
+    height: auto;
+    max-width: 100%; }
+
+.contact {
+  border-left: 1px solid #e1e1e1; }
+
 .site-footer {
   height: 430px;
   background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/dark-wood.png);
@@ -767,6 +828,8 @@ p {
     color: #fff;
     text-decoration: none;
     display: inline; }
+    .site-footer a:hover {
+      text-decoration: underline; }
   .site-footer .business-hours p {
     color: #fff; }
   .site-footer .business-hours span {
@@ -1154,3 +1217,42 @@ p {
 
 .single-product .nav-next {
   display: none; }
+
+.page-id-110 .site-header {
+  background-color: transparent;
+  padding: 0.5rem 0;
+  position: fixed;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  margin-top: 30px;
+  border-bottom: transparent; }
+  .page-id-110 .site-header h1 {
+    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent-white.svg) no-repeat;
+    background-size: 50px 33px;
+    margin: 0; }
+  .page-id-110 .site-header a {
+    color: #fff; }
+
+.page-id-110 .menu-main-menu-container ul {
+  margin-bottom: -50px; }
+
+.page-id-110 .entry-content p {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; }
+
+.page-id-110 .entry-content h2 {
+  text-align: center; }
+
+.page-id-110 .entry-content .hero-image-header {
+  height: 100vh; }
+
+.page-id-110 .entry-header h1 {
+  color: #fff; }
+
+.page-id-110 .site-content {
+  padding: 0;
+  margin: 0; }

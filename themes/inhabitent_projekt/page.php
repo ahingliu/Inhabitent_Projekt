@@ -27,8 +27,6 @@ get_header(); ?>
 					<span><i class="fab fa-google-plus-square"></i></span>
 				</p>
 		<?php get_sidebar(); ?>
-
-			
 	</div>
 <?php get_footer(); ?>
 

@@ -1,0 +1,53 @@
+.page-id-110 {
+  .site-header {
+    background-color: transparent;
+    padding: 0.5rem 0;
+    position: fixed;
+    transition: top 0.5s linear;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    margin-top: 30px;
+    border-bottom: transparent;
+
+    h1 {
+      background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent-white.svg)
+        no-repeat;
+      background-size: 50px 33px;
+      margin: 0;
+    }
+
+    a {
+      color: $color__background-body;
+    }
+  }
+
+  .menu-main-menu-container {
+    ul {
+      margin-bottom: -50px;
+    }
+  }
+
+  .entry-content {
+    p {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 800px;
+    }
+    h2 {
+      text-align: center;
+    }
+    .hero-image-header {
+      height: 100vh;
+    }
+  }
+  .entry-header {
+    h1 {
+      color: $color__background-body;
+    }
+  }
+  .site-content {
+    padding: 0;
+    margin: 0;
+  }
+}
