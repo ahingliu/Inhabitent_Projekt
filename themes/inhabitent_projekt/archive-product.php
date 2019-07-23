@@ -15,10 +15,10 @@ get_header(); ?>
 
 			<h1 class="page-title">Shop Stuff</h1>
 				<ul class="product-type-list">
-				<li><p><a href="http://localhost/wptest/product/">Do</a></p></li>
-				<li><p><a href="http://localhost/wptest/product/">Eat</a></p></li>
-				<li><p><a href="http://localhost/wptest/product/">Sleep</a></p></li>
-				<li><p><a href="http://localhost/wptest/product/">Wear</a></p></li>	
+				<li><p><a href="http://localhost/wptest/product-type/do" target="_blank" >Do</a></p></li>
+				<li><p><a href="http://localhost/wptest/product-type/Eat" target="_blank">Eat</a></p></li>
+				<li><p><a href="http://localhost/wptest/product-type/Sleep" target="_blank">Sleep</a></p></li>
+				<li><p><a href="http://localhost/wptest/product-type/Wear" target="_blank">Wear</a></p></li>	
 				</ul>
 			
 			<!-- get terms - wordpress - foreach loop -->

@@ -9,10 +9,12 @@ get_header(); ?>
 
 	<div id="primary" class="content-area container">
 		<main id="main" class="site-main" role="main">
-			
+		
+		<div class="container">
+
 		<?php while ( have_posts() ) : the_post(); ?>
-	
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
+
+			<?php get_template_part( 'template-parts/content', 'single-product' ); ?>
 
 			<?php the_post_navigation(); ?>
 
@@ -24,7 +26,7 @@ get_header(); ?>
 			?>
 
 		<?php endwhile; // End of the loop. ?>
-
+		</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

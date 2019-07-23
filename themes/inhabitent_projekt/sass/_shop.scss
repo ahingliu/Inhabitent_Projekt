@@ -17,6 +17,7 @@
     width: 100%;
     display: inline-block;
     height: 50px;
+    margin-top: 15px;
 
     h1 {
       background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
@@ -40,6 +41,12 @@
     h1 {
       font-size: 2.4rem;
       margin-bottom: 0.5rem;
+      margin-top: 100px;
+    }
+    .shop-title {
+      p {
+        font-weight: lighter;
+      }
     }
   }
 
@@ -295,6 +302,33 @@
         white-space: nowrap;
         content: '..........................';
       }
+    }
+  }
+}
+
+// This part controls the taxonomy SCSS
+
+.page-header {
+  width: 100%;
+  display: inline-block;
+  margin: auto 0;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: initial;
+  }
+
+  .shop-title {
+    p {
+      font-size: 1rem;
     }
   }
 }

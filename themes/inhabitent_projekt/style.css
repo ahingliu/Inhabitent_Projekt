@@ -745,7 +745,7 @@ p {
   margin-bottom: 1.5rem; }
 
 .site-footer {
-  height: 400px;
+  height: 430px;
   background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/dark-wood.png);
   color: #fff; }
   .site-footer .f-blocks {
@@ -806,17 +806,24 @@ p {
 
 .page-id-7 .site-header {
   background-color: transparent;
-  border-bottom: none;
   padding: 0.5rem 0;
   position: fixed;
   -webkit-transition: top 0.5s linear;
   transition: top 0.5s linear;
   width: 100%;
-  z-index: 3;
-  display: inline-block; }
+  display: inline-block;
+  height: 50px;
+  margin-top: 30px;
+  border-bottom: transparent; }
+  .page-id-7 .site-header h1 {
+    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent-white.svg) no-repeat;
+    background-size: 50px 33px;
+    margin: 0; }
+  .page-id-7 .site-header a {
+    color: #fff; }
 
-.page-id-7 .hero-image-header {
-  height: 100vh; }
+.page-id-7 .menu-main-menu-container ul {
+  margin-bottom: -50px; }
 
 .page-id-7 .entry-content p {
   margin-left: auto;
@@ -825,6 +832,16 @@ p {
 
 .page-id-7 .entry-content h2 {
   text-align: center; }
+
+.page-id-7 .entry-content .hero-image-header {
+  height: 100vh; }
+
+.page-id-7 .entry-header h1 {
+  color: #fff; }
+
+.page-id-7 .site-content {
+  padding: 0;
+  margin: 0; }
 
 .archive h2 {
   margin-bottom: 0;
@@ -842,7 +859,8 @@ p {
   transition: top 0.5s linear;
   width: 100%;
   display: inline-block;
-  height: 50px; }
+  height: 50px;
+  margin-top: 15px; }
   .archive .site-header h1 {
     background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg) no-repeat;
     background-size: 50px 33px;
@@ -855,7 +873,11 @@ p {
 
 .archive .page-header h1 {
   font-size: 2.4rem;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  margin-top: 100px; }
+
+.archive .page-header .shop-title p {
+  font-weight: lighter; }
 
 .archive .page-title {
   display: -webkit-box;
@@ -1039,3 +1061,96 @@ p {
   width: 0;
   white-space: nowrap;
   content: '..........................'; }
+
+.page-header {
+  width: 100%;
+  display: inline-block;
+  margin: auto 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-header h1 {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase; }
+  .page-header p {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: initial; }
+  .page-header .shop-title p {
+    font-size: 1rem; }
+
+.single-product .site-main article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.single-product .site-main img {
+  height: auto;
+  max-width: 100%;
+  margin-top: 40px; }
+
+.single-product .site-main .entry-content {
+  width: 50%; }
+  .single-product .site-main .entry-content .sp-social a {
+    color: #000;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #000;
+    font-size: 0.9rem;
+    line-height: 1;
+    text-transform: uppercase; }
+    .single-product .site-main .entry-content .sp-social a:hover {
+      background-color: #248a83;
+      border: 1px solid #248a83;
+      color: #fff; }
+  .single-product .site-main .entry-content .sp-social i {
+    margin-right: 10px; }
+
+.single-product .site-main .entry-header {
+  width: 50%;
+  margin-right: 40px; }
+
+.single-product .site-main .entry-title {
+  color: #d99054;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-family: "Novecento Sans Web", sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold; }
+
+.single-product .site-main .single-price {
+  color: #404040;
+  font-family: "Novecento Sans Web", sans-serif;
+  font-size: 1.8rem;
+  margin-top: -20px; }
+
+.single-product .site-header {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0.5rem 0;
+  position: fixed;
+  -webkit-transition: top 0.5s linear;
+  transition: top 0.5s linear;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  margin-top: -50px; }
+  .single-product .site-header h1 {
+    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg) no-repeat;
+    background-size: 50px 33px;
+    margin: 0; }
+  .single-product .site-header a {
+    color: #248a83; }
+
+.single-product .menu-main-menu-container ul {
+  margin-bottom: -50px; }
+
+.single-product .nav-previous {
+  display: none; }
+
+.single-product .nav-next {
+  display: none; }

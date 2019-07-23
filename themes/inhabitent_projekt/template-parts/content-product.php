@@ -1,12 +1,13 @@
+
+
 <?php
 /**
- * Template part for displaying posts.
+ * The template for displaying archive pages.
  *
  * @package RED_Starter_Theme
  */
-?> 
 
-
+get_header(); ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>> 
 	<header class="entry-header">
