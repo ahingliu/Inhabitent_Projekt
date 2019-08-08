@@ -9,9 +9,40 @@
 	select {
 		max-width: 100%;
 	}
-}
+
+	.contact {
+		display: flex;
+		margin: 0 0 3rem;
+		}
+	}
+
+	ul{
+		list-style-type: none; 
+		padding: 0;
+		margin: 0;
+		
+	}
+
+	#archives-2 > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) li{
+		font-family: 'Merriweather Web';
+
+	}
+	#archives-2{
+		ul{
+			font-family: 'Merriweather Web';
+		}
+	}
 
 /* Search widget. */
 .widget_search .search-submit {
 	display: none;
 }
+.fas{
+	margin-right: 10px;
+}
+.widget-area{
+	 h2{
+		font-size: 1.5rem;
+	}
+}
+

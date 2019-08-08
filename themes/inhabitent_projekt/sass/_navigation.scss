@@ -6,14 +6,15 @@
 
 a {
   color: $color__link;
+  text-decoration: none;
 
   &:visited {
-    color: $color__link-visited;
+    color: $color__link-hover-dark;
   }
   &:hover,
   &:focus,
   &:active {
-    color: $color__link-hover;
+    color: $color__link-hover-dark;
   }
   &:focus {
     outline: thin dotted;
@@ -22,6 +23,14 @@ a {
   &:active {
     outline: 0;
   }
+}
+
+.day-of-week{
+  font-weight: bold;
+}
+
+i{
+  margin-left: 5px; 
 }
 
 /* Menus */
@@ -33,7 +42,7 @@ a {
 }
 
 .site-header {
-  background-color: transparent;
+  background-color: grey;
   border-bottom: 1px solid #e1e1e1;
   padding: 0.5rem 0;
   position: fixed;
@@ -41,7 +50,8 @@ a {
   width: 100%;
   z-index: 3;
   display: inline-block;
-
+  height: 50px;
+  
   h1 {
     background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent-white.svg)
       no-repeat;
@@ -52,14 +62,25 @@ a {
     text-indent: 100%;
     white-space: nowrap;
     width: 50px;
+    padding-right: 50px;
+  }
+  
+}
+
+.site-header{
+  .site-title{
+      color:transparent;
   }
 }
 
 .main-navigation {
   clear: both;
-  display: block;
+  display: flex;
+  flex-direction: column;
   float: left;
   width: 100%;
+
+  
 
   ul {
     display: none;
@@ -111,9 +132,11 @@ a {
     justify-content: space-around;
     margin-right: 20px;
 
-    &:hover > a,
-    &.focus > a {
-    }
+    &:hover,
+  &:focus,
+  &:active {
+    color: $color__link-hover-dark;
+  }
   }
   a {
     display: block;

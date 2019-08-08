@@ -1,7 +1,15 @@
 .archive {
+
+  .site-content{
+    .content-area {
+    width: 100%;}
+    }
+  
   h2 {
     margin-bottom: 0;
     padding: 8px;
+    letter-spacing: 0;
+    text-transform: none;
   }
 
   .site-content {
@@ -17,7 +25,7 @@
     width: 100%;
     display: inline-block;
     height: 50px;
-    margin-top: 15px;
+    margin-top: -16px;
 
     h1 {
       background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
@@ -31,17 +39,13 @@
     }
   }
 
-  .menu-main-menu-container {
-    ul {
-      margin-bottom: -50px;
-    }
-  }
+  
 
   .page-header {
     h1 {
       font-size: 2.4rem;
       margin-bottom: 0.5rem;
-      margin-top: 100px;
+      margin-top: -15px;
     }
     .shop-title {
       p {
@@ -331,4 +335,5 @@
       font-size: 1rem;
     }
   }
+
 }

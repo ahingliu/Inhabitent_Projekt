@@ -1,0 +1,91 @@
+.blog, .single {
+
+  img{
+    width: 100%;
+    height: 507.067px;
+  }
+
+  .w-fix a{
+    color: #404040;
+  }
+
+    .site-header {
+        background-color: rgba(255, 255, 255, 0.75);
+        border-bottom: 1px solid #e1e1e1;
+        padding: 0.5rem 0;
+        position: fixed;
+        transition: top 0.5s linear;
+        width: 100%;
+        display: inline-block;
+        height: 50px;
+        
+    
+        h1 {
+          background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
+            no-repeat;
+          background-size: 50px 33px;
+          margin: 0;
+        }
+    
+        a {
+          color: $color__greenbrand;
+        }
+      }
+
+      .content-area {
+        border-right: 1px solid #e1e1e1;
+        padding-right: 5%;
+        width: 73%;
+      }
+
+      .entry-header {
+        position: relative;
+      }
+
+      .entry-title{
+        background-color: $color__greenbrand;
+        position: absolute;
+        width: 576px;
+        padding: 11px;
+        padding: .75rem 1.5rem;
+        line-height: 1.25;
+        margin-top: 30px;
+
+        a{
+            color: $color__background-body;
+            &:hover {
+                color: #f0e4d1;
+              }
+        }
+      }
+     .comments{
+      background-color: $color__greenbrand;
+      position: absolute;
+      color: $color__background-body;
+      text-transform: uppercase;
+      padding: 4px 15px;
+      font-size: 1rem;
+      right: 0;
+      bottom: -17.5px;
+      font-family: 'Novecento Sans Web';
+     }
+
+     .journal-button{
+       
+       .dark-button{
+        background-color: transparent;
+        border: 1px solid #000;
+        color: #000;
+        border-radius: 0;
+        font-size: .9rem;
+        line-height: 1;
+        padding: .75rem 1.5rem;
+        margin-bottom: 3rem;;
+        &:hover {
+          background-color: $color__greenbrand;
+          color: $color__background-body; 
+          border: 1px solid $color__background-body;
+          }
+       }
+     }
+}

@@ -1,4 +1,10 @@
 .single-product {
+
+  #primary.content-area{
+    border-right: none;
+    padding-right: 0;
+    width: 100%;
+  }
   .site-main {
     article {
       display: flex;
@@ -13,6 +19,7 @@
 
     .entry-content {
       width: 50%;
+      margin-top: 140px;
 
       .sp-social {
         a {
@@ -39,7 +46,6 @@
 
     .entry-header {
       width: 50%;
-
       margin-right: 40px;
     }
 
@@ -50,6 +56,9 @@
       font-family: $hfonts;
       letter-spacing: 2px;
       font-weight: bold;
+      margin-top: -98px;
+      background-color: transparent;
+      padding: 0;
     }
 
     .single-price {
@@ -71,7 +80,7 @@
     width: 100%;
     display: inline-block;
     height: 50px;
-    margin-top: -50px;
+    margin-top: -80px;
 
     h1 {
       background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
@@ -85,10 +94,8 @@
     }
   }
 
-  .menu-main-menu-container {
-    ul {
-      margin-bottom: -50px;
-    }
+  .site-content{
+    padding-top: 0;
   }
 
   .nav-previous {

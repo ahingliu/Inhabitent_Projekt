@@ -1,6 +1,12 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+body{
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
 
 .site {
   max-width: auto;
@@ -8,17 +14,33 @@
 }
 
 .site-content {
-  padding: 1rem;
+  padding-top: 50px;
   margin: 5rem 0;
   display: flex;
 }
 
+.main-navigation{
+  margin-top:-50px;
+}
+
+body:not(.home):not(.page-about):not(.post-type-archive):not(.tax-product-type):not(.single-product):not(.single-adventure) .site-content {
+ 
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 1120px;
+}
+
 .content-area {
-  flex: 2;
+width:73%;
+  padding-top: 3rem;
 }
 
 .widget-area {
-  flex: 1;
+  width:27%;
+  padding-top: 3rem;
 }
 
 /* Front page */
@@ -37,4 +59,3 @@ p {
   margin-bottom: 1.5rem;
 }
 
-// testing

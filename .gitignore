@@ -35,7 +35,7 @@ uploads/
 !README.md
 
 plugins/*
-!plugins/inhabitent-functionality
+!plugins/red-functionality-master
 
 themes/*
 !themes/Inhabitent_Projekt

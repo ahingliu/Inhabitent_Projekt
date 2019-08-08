@@ -15,7 +15,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>	
 		<?php echo '<div class="single-price">'; echo CFS()->get( 'price' ); echo '</div>'; ?> 
 		<?php the_content(); ?>
 
@@ -24,7 +24,6 @@
 		<a href="#"><i class="fab fa-twitter"></i>Tweet</a>
 		<a href="#"><i class="fab fa-pinterest"></i>Pin</a>
 		</div>	
-		
 	</div><!-- .entry-content -->
 
 	</article><!-- #post-## -->
