@@ -798,7 +798,7 @@ body img {
 .main-navigation {
   margin-top: -50px; }
 
-body:not(.home):not(.page-about):not(.post-type-archive):not(.tax-product-type):not(.single-product):not(.single-adventure) .site-content {
+body:not(.home):not(.page-id-7):not(.post-type-archive):not(.tax-product-type):not(.single-product):not(.single-adventure) .site-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -891,9 +891,6 @@ p {
   width: 1120px;
   margin: auto; }
 
-.page-id-7 .site-content .content-area {
-  width: 100%; }
-
 .page-id-7 .site-header {
   background-color: transparent;
   padding: 0.5rem 0;
@@ -921,7 +918,8 @@ p {
   .page-id-7 .entry-content h2 {
     text-align: center; }
   .page-id-7 .entry-content .hero-image-header {
-    height: 100vh; }
+    height: 100vh;
+    margin-top: -24px; }
 
 .page-id-7 .entry-header h1 {
   color: #fff; }
@@ -929,6 +927,9 @@ p {
 .page-id-7 .site-content {
   padding: 0;
   margin: 0; }
+  .page-id-7 .site-content .content-area {
+    width: 100%;
+    padding-top: 0px; }
 
 .archive .site-content .content-area {
   width: 100%; }
