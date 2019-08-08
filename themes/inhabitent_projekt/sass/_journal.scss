@@ -6,7 +6,7 @@
   }
 
   .w-fix a{
-    color: #404040;
+    
   }
 
     .site-header {
@@ -44,6 +44,7 @@
 
       .entry-title{
         background-color: $color__greenbrand;
+        opacity: 0.9;
         position: absolute;
         width: 576px;
         padding: 11px;
@@ -61,6 +62,7 @@
      .comments{
       background-color: $color__greenbrand;
       position: absolute;
+      opacity: 0.9;
       color: $color__background-body;
       text-transform: uppercase;
       padding: 4px 15px;

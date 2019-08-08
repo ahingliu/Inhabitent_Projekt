@@ -3,6 +3,28 @@
 --------------------------------------------------------------*/
 
 .widget {
+
+	a {
+		color: $color__link;
+		text-decoration: none;
+	  
+		&:visited {
+		  color: $color__greenbrand;
+		}
+		&:hover,
+		&:focus,
+		&:active {
+			color: #2f1339;
+		}
+		&:focus {
+		  outline: thin dotted;
+		}
+		&:hover,
+		&:active {
+		  outline: 0;
+		}
+	  }
+
 	margin: 0 0 $base__space-unit;
 
 	/* Make sure select elements fit in widgets. */
