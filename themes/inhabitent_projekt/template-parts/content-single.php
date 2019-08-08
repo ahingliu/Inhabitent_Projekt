@@ -17,14 +17,21 @@
 		
 		<p class="comments">
 		<?php if ( 'post' === get_post_type() ) : ?>
-			<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
 		<?php endif; ?>
 		</p>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_excerpt(); ?>
-
-		
+	<?php the_content(); ?>
+		<?php
+			wp_link_pages( array(
+				'before' => '<div class="page-links">' . esc_html( 'Pages:' ),
+				'after'  => '</div>',
+			) );
+		?>
+	<footer class="entry-footer">
+		<?php red_starter_entry_footer(); ?>
+	</footer><!-- .entry-footer -->
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->

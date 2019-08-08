@@ -59,3 +59,170 @@ p {
   margin-bottom: 1.5rem;
 }
 
+// Singles
+
+.single{
+  .comment-body {
+		display: flex;
+		padding-top: 1.25rem;
+		padding-bottom: 1.5rem;
+		p {
+			margin: .5rem 0 1rem 0;
+		}
+	}
+
+	.comment-author-avatar {
+		padding-right: 3rem;
+		img {
+			border-radius: 50%;
+			width: 64px;
+			height: 64px;
+    }
+    a{
+      color: #d99054;
+    }
+	}
+
+  cite {
+		font-weight: bold;
+    font-style: normal;
+    font-family: 'Merriweather Web';
+	}
+
+ .comments-link{
+   a{
+    color: #fff;
+   }
+   
+ }
+  .comment-metadata {
+		color: grey;
+    margin-bottom: 1rem;
+    font-family: 'Merriweather Web';
+    a{
+      color: $color__greenbrand;
+      &:hover {
+        color: #111;
+      }
+    }
+  
+	}
+
+  .cat-links, .tags-links{
+    margin-right: 30px;
+    text-transform: uppercase;
+  }
+  .content-area{
+    padding-bottom: 3rem;
+  }
+  .comment-form-cookies-consent{
+    display: none;
+  }
+  .nav-previous, .nav-next{
+    display: none;
+  }
+
+  .comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url {
+    label{
+      text-transform: uppercase;
+      font-family: 'Novecento Sans Web';
+    }
+    .required {
+      color: #d99054;
+  }
+  }
+  .comment-reply-title{
+    h3{
+      font-size: 3rem;
+    }
+  }
+  .comment-form {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		line-height: 1;
+		input {
+			margin: 1rem 0 0 0;
+		}
+	
+		.comment-form-comment {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			textarea {
+				margin-bottom: 0;
+				margin-top: 1rem;
+			}
+		}
+		.comment-form-author {
+			width: 49%;
+			display: flex;
+			flex-direction: column;
+			margin-right: 2%;
+		}
+		.comment-form-email {
+			width: 49%;
+			display: flex;
+			flex-direction: column;
+		}
+		.comment-form-url {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+		.form-submit {
+			margin-bottom: 3.5rem;
+		}
+	}
+}
+.social-buttons{
+  margin-top: 40px;
+  margin-bottom: 40px;
+    a {
+      color: $black;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid #000;
+      font-size: 0.9rem;
+      line-height: 1;
+      text-transform: uppercase;
+      
+
+      &:hover {
+        background-color: $color__greenbrand;
+        border: 1px solid $color__greenbrand;
+        color: $color__background-body;
+      }
+    }
+
+    i {
+      margin-right: 10px;
+    }
+  .comment-metadata{
+    a{
+      color: $color__greenbrand
+    }
+  }
+  .comment-content{
+    p{
+      margin-top:5rem;
+    }
+  }
+  .comment-respond{
+  .coment-reply-title{
+      font-size: 2rem;
+    }
+  }
+  #respond{
+    h3{
+      font-size: 4rem;
+    }
+    
+  }
+  #reply-title, .comment-reply-title h3{
+    font-size: 4rem;
+  }
+  }
+
+
+
