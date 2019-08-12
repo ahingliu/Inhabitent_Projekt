@@ -32,6 +32,7 @@
         margin-top: 3.75rem;;
     }   
     
+    
 
     .product-type-blocks{
         display: flex;
@@ -49,12 +50,37 @@
         flex: 0 1 23.5%;
         max-width: 23.5%;
         padding: 10px 10px 35px;
-
+        
         &:hover{
             border-color: #d99054; 
         }
     }
 
+    .journal-posts-blocks{
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        margin-left: -42px;
+
+        img{
+            max-height: 250px;
+            max-width: none;
+            width: auto;
+        }
+    }
+
+    .journal-content-wrapper{
+        border: 1px solid #e1e1e1;
+        border-top-width: 7px;
+        padding: 12px;
+        margin-top: -6px;
+    }
+    .journal-posts-block-wrapper{
+        padding: 1rem;
+    }
+
+    
+    
     .menu-toggle{
         background-color: transparent;
         color: transparent;

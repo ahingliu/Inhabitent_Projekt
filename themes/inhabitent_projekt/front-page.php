@@ -50,8 +50,39 @@ get_header(); ?>
 					</div>
 				<?php endif; ?>
 			</section>
+							
+			<section class="product-info container">
+			
+			<h2>Inhabitent Journal</h2>
 
-		
+			<!-- Getting the journal posts data -->	
+			
+			<?php
+   					$args = array( 'post_type' => 'post', 'order' => 'DESC', 'numberposts' => 3 );
+   					$journal_posts = get_posts( $args );
+				?>
+
+			<!-- Displaying the journal posts data -->	
+			<div class="journal-posts-blocks">
+						<?php foreach ( $journal_posts as $post ) : setup_postdata( $post); ?>
+							<div class="journal-posts-block-wrapper">
+								<div class="journal-image-wrapper">
+									<?php the_post_thumbnail('medium_large'); ?>
+								</div>
+								<div class="journal-content-wrapper">
+								<p>
+									<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
+								</p>
+								<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+								<a href="<?php the_permalink(); ?>"><button class="dark-button">Read Entry</button></a>
+							</div>
+							</div>
+						<?php endforeach; wp_reset_postdata();?>
+					</div>
+			</section>
+			
+
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	
