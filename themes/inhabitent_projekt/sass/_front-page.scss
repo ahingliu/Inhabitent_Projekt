@@ -1,0 +1,104 @@
+/* Front page */
+
+.home{
+
+    .btn{
+        background: #248a83;
+        border: none;
+        border-radius: 0;
+        color: #fff;
+        cursor: pointer;
+        font-family: 'Novecento Sans Web',sans-serif;
+        font-size: 14.4px;
+        font-size: .9rem;
+        line-height: 1;
+        padding: .75rem 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+       
+        
+        &:hover{
+            background: #19625d;
+            color: #fff;
+        }
+        
+    }
+
+    h2{
+        font-size: 2.4rem;
+        font-weight: 400;
+        margin-bottom: 3.75rem;
+        text-align: center;
+        margin-top: 3.75rem;;
+    }   
+    
+
+    .product-type-blocks{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        img{
+            height: 70px;
+            width: 70px;
+        }
+    }
+
+    .product-type-block-wrapper{
+        border: 1px solid #e1e1e1;
+        border-top-width: 5px;
+        flex: 0 1 23.5%;
+        max-width: 23.5%;
+        padding: 10px 10px 35px;
+
+        &:hover{
+            border-color: #d99054; 
+        }
+    }
+
+    .menu-toggle{
+        background-color: transparent;
+        color: transparent;
+    }
+        
+    .site-content{
+        .content-area {
+            width: 100%;
+            .front-page-hero{
+                background:linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.4)),#969696 url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/home-hero.jpg)
+            no-repeat;
+                background-size: cover;
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -179px;
+                img {
+                    height: 275px;
+                    width: 275px;
+                    
+                }
+            }
+        }
+    }
+    
+
+    .site-header {
+        margin-top: -80px;
+        border-bottom: transparent;
+    
+        h1 {
+          background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent-white.svg)
+            no-repeat;
+          background-size: 50px 33px;
+          margin: 0;
+        }
+    
+        a {
+          color: $color__background-body;
+          &:hover {
+            color: #f0e4d1;
+          }
+      }
+    
+}}

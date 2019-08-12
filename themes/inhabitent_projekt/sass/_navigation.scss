@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $color__link-hover-dark;
+    
   }
   &:hover,
   &:focus,
@@ -42,7 +42,7 @@ i{
 }
 
 .site-header {
-  background-color: grey;
+  background-color: transparent;
   border-bottom: 1px solid #e1e1e1;
   padding: 0.5rem 0;
   position: fixed;
@@ -53,7 +53,7 @@ i{
   height: 50px;
   
   h1 {
-    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent-white.svg)
+    background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
       no-repeat;
     background-size: 50px 33px;
     height: 33px;
@@ -141,7 +141,7 @@ i{
   a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: $color__greenbrand;
   }
 
   .current_page_item > a,
@@ -184,3 +184,6 @@ i{
     width: 50%;
   }
 }
+
+
+
