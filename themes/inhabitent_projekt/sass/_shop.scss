@@ -1,5 +1,24 @@
 .archive {
 
+  .main-navigation{
+
+    a{
+      &:hover{
+        color: #2f1339;
+      }
+     
+    }
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+      color: $color__link;
+      &:hover {
+        color: #2f1339;
+      }
+    }
+  }
+
   .site-content{
     .content-area {
     width: 100%;}

@@ -230,6 +230,24 @@ p {
 
 .page-id-23{
 
+  .main-navigation{
+
+    a{
+      &:hover{
+        color: #2f1339;
+      }
+     
+    }
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+      color: $color__link;
+      &:hover {
+        color: #2f1339;
+      }
+    }
+  }
     .entry-content{
       .wp-caption, embed, iframe, object {
         
@@ -286,107 +304,22 @@ p {
   }
 }    
 
-//404
+// Front-page
 
-.error404{
-  input[type="search"] {
-    padding: 0.3rem;
-    font-family: 'Merriweather Web';
-  }
-
-  fieldset {
-    border: 0;
-    padding: 0;
-    padding-bottom: 0px;
-    padding-bottom: .75rem;
-    margin: 0;
-    width: 28%;
-}
-  .page-header{
-    width: auto;
-    .page-title{
-        font-size: 2.4rem;
-
-    }
-      
-  }
-
-  select, textarea {
-    color: #404040;
-    font-family: 'Merriweather Web';
-  }
-.page-content{
-  li{
-    font-family: 'Merriweather Web';
-  }
-}
-
-  .site-header {
-    background-color: rgba(255, 255, 255, 0.75);
-    border-bottom: 1px solid #e1e1e1;
-    padding: 0.5rem 0;
-    position: fixed;
-    transition: top 0.5s linear;
-    width: 100%;
-    display: inline-block;
-    height: 50px;
-    
-
-    h1 {
-      background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
-        no-repeat;
-      background-size: 50px 33px;
-      margin: 0;
-    }
-
-    a {
-      color: $color__greenbrand;
+.home{
+  .main-navigation{
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+      color: #fff;
+      &:hover {
+        color: #f0e4d1;
+      }
     }
   }
-
-  .content-area {
-    border-right: 1px solid #e1e1e1;
-    padding-right: 5%;
-    width: 73%;
-    padding-bottom: 5%;
-  }
-
-
-}
-        
-// Search results
-
-.search {
-
-.page-header {
-  border-bottom: 1px solid #e1e1e1;
-  margin-bottom: 3rem;
-  padding-bottom: 1rem;
-
-  h1{
-    text-align: left;
-  }
-}
-
-.page-title{
-  font-size: 2.4rem;
-  left:0;
-}
-
-.content-area-search{
-  width:73%;
-  padding-right:5%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  border-right: 1px solid #e1e1e1;
-}
-
-.fas {
-  color: #404040;
-}
-
-input[type="search"]{
-  width:28%;
-  font-family: 'Merriweather Web';
+  .main-navigation .search-field.search-visible {
+    color: #ffff;
 }
 }
+  

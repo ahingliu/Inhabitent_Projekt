@@ -1,6 +1,26 @@
 .page-id-7 {
   
+  .main-navigation{
 
+    a{
+      &:hover{
+        color: #f0e4d1;
+      }
+     
+    }
+    button,
+    input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+      color: #fff;
+      &:hover {
+        color: #f0e4d1;
+      }
+    }
+  }
+  .main-navigation .search-field.search-visible {
+    color: #ffff;
+}
 
   .site-header {
     background-color: transparent;

@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The template for displaying 404 pages (not found).
@@ -6,7 +7,6 @@
  *
  * @package RED_Starter_Theme
  */
-
 get_header(); ?>
 
 	<div id="primary" class="content-area">

@@ -1,0 +1,117 @@
+.site-header {
+    background-color: transparent;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 0.5rem 0;
+    position: fixed;
+    transition: top 0.5s linear;
+    width: 100%;
+    z-index: 3;
+    display: inline-block;
+    height: 50px;
+    
+    h1 {
+      background: url(http://localhost/wptest/wp-content/themes/inhabitent_projekt/resources/images/logos/inhabitent-logo-tent.svg)
+        no-repeat;
+      background-size: 50px 33px;
+      height: 33px;
+      margin: 0;
+      overflow: hidden;
+      text-indent: 100%;
+      white-space: nowrap;
+      width: 50px;
+      padding-right: 50px;
+    }
+    
+  }
+  
+  .site-header{
+    .site-title{
+        color:transparent;
+    }
+
+    // Search section
+
+   
+    .header-search {
+        line-height: 1;
+        padding-left: $base__space-unit;
+        display: flex;
+     
+        .search-toggle {
+           color: $color__greenbrand;
+           float: left;
+           padding-top: .33rem;
+        }
+     
+        fieldset {
+           padding: 0;
+        }
+     
+        label {
+           display: none;
+           float: left;
+           margin: 0;
+        }
+     
+        input[type="search"] {
+           border: 0;
+           background: transparent;
+         
+           margin-left: $base__space-unit / 2;
+           padding: 0 ($base__space-unit / 5);
+           text-transform: uppercase;
+     
+           &:focus {
+              outline: none;
+           }
+        }
+
+        .fa{
+            display: inline-block;
+        }
+     }
+    
+    
+    
+  }
+
+// TEST
+
+
+
+.main-navigation{
+    display: flex;
+    
+    .search-field{
+        position: absolute;
+        width: 0;
+        margin-left: 1117px;
+        margin-top: -38px;
+        background-color: transparent;
+        color: #ffffff;
+        border: none;
+        transition-duration: 1s;
+        textarea{
+            color: #ffffff;
+        }
+
+        &.search-visible {
+            width: 200px;
+            transition-duration: 1s;
+            color: $color__text-main;
+        }
+    }
+
+    button{
+        position: absolute;
+        width: 0;
+        padding: 0;
+        margin-left: 1099px;
+        margin-top: -25px;
+    }
+
+    input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"] {
+        color: #ffff;
+    }
+}
+
