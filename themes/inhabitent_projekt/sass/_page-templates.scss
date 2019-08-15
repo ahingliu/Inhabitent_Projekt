@@ -13,7 +13,7 @@ body{
   margin: 0 auto;
 }
 
-.site-content {
+.site-content :not(.tax-product-type) .site-content {
   padding-top: 50px;
   margin: 5rem 0;
   display: flex;
@@ -33,9 +33,11 @@ body:not(.home):not(.page-id-7):not(.post-type-archive):not(.tax-product-type):n
   width: 1120px;
 }
 
-.content-area {
-width:73%;
-  padding-top: 3rem;
+.content-area :not(.home):not(.page-id-7):not(.post-type-archive):not(.tax-product-type):not(.single-product):not(.single-adventure):not(.index) .content-area {
+  border-right: 1px solid #e1e1e1;
+    padding-right: 5%;
+    width: 73%;
+    padding-top: 3rem;
 }
 
 .widget-area {
@@ -229,7 +231,14 @@ p {
   // Find Us
 
 .page-id-23{
+  
+  .hentry {
+    padding-top: 4rem;
+  }
 
+  .widget-area {
+    padding-top: 6rem;
+}
   .main-navigation{
 
     a{
@@ -322,4 +331,7 @@ p {
     color: #ffff;
 }
 }
-  
+
+
+
+
