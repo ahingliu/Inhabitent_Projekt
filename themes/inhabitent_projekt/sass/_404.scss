@@ -1,6 +1,18 @@
 //404
 
 .error404{
+
+  .content-area{
+    width:73%;
+    padding-right:5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-right: 1px solid #e1e1e1;
+  }
+
+  .site-header {
+    background-color: rgba(255, 255, 255, 0.75);
+}
     .page-header{
         width: auto;
         .page-title{
@@ -106,6 +118,17 @@
   // Search results
 
 .search {
+  .content-area-search{
+    width:73%;
+    padding-right:5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-right: 1px solid #e1e1e1;
+  }
+
+  .site-header {
+    background-color: rgba(255, 255, 255, 0.75);
+}
     .page-content {
     fieldset{
     .search-submit{
@@ -141,11 +164,6 @@
         }
       }
     }
-    
-  
-   
-    
-   
     }
   .page-header {
     border-bottom: 1px solid #e1e1e1;
@@ -160,14 +178,6 @@
   .page-title{
     font-size: 2.4rem;
     left:0;
-  }
-  
-  .content-area-search{
-    width:73%;
-    padding-right:5%;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    border-right: 1px solid #e1e1e1;
   }
   
   .fas {

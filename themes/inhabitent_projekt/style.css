@@ -815,7 +815,7 @@ body:not(.home):not(.page-id-7):not(.post-type-archive):not(.tax-product-type):n
 
 .widget-area {
   width: 27%;
-  padding-top: 3rem; }
+  padding-top: 6rem; }
 
 /* Front page */
 h2 {
@@ -1922,6 +1922,16 @@ p {
   .main-navigation input[type="email"], .main-navigation input[type="password"], .main-navigation input[type="search"], .main-navigation input[type="text"], .main-navigation input[type="url"] {
     color: #ffff; }
 
+.error404 .content-area {
+  width: 73%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border-right: 1px solid #e1e1e1; }
+
+.error404 .site-header {
+  background-color: rgba(255, 255, 255, 0.75); }
+
 .error404 .page-header {
   width: auto; }
   .error404 .page-header .page-title {
@@ -1997,6 +2007,16 @@ p {
   width: 73%;
   padding-bottom: 5%; }
 
+.search .content-area-search {
+  width: 73%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border-right: 1px solid #e1e1e1; }
+
+.search .site-header {
+  background-color: rgba(255, 255, 255, 0.75); }
+
 .search .page-content fieldset .search-submit {
   display: none; }
 
@@ -2032,13 +2052,6 @@ p {
 .search .page-content .page-title {
   font-size: 2.4rem;
   left: 0; }
-
-.search .page-content .content-area-search {
-  width: 73%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  border-right: 1px solid #e1e1e1; }
 
 .search .page-content .fas {
   color: #404040; }
