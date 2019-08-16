@@ -36,6 +36,7 @@ uploads/
 
 plugins/*
 !plugins/red-functionality-master
+!plugins/business-hour-widget
 
 themes/*
 !themes/Inhabitent_Projekt
