@@ -14,7 +14,7 @@ This project aimed at building a multi-page website with a blog for a camping su
 - SQL
 - WordPress
 
-<img src="https://user-images.githubusercontent.com/43591615/63216996-362cc380-c0f3-11e9-9d2a-9b7e61151b33.pn">
+<img src="https://user-images.githubusercontent.com/43591615/63216996-362cc380-c0f3-11e9-9d2a-9b7e61151b33.png">
 
 ## PERSONAL LEARNINGS:
 
